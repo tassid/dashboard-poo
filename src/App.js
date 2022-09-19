@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Sidebar from './components/sidebar/Sidebar'
 
 const App = () => {
 
@@ -16,7 +17,7 @@ const App = () => {
   return (
     <div className="container">
       <header>
-        <h1>Dashboard Granja</h1>
+        <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar}></Sidebar>
       </header>
     </div>
   );
