@@ -10,7 +10,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <h1>Dashboard</h1>
                 </div>
 
-                <i onClick={() => closeSidebar()}
+                <i onClick={ () => closeSidebar() }
                     className='fa fa-times'
                     id='sidebarIcon'
                     aria-hidden='true'
