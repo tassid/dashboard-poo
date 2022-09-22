@@ -13,7 +13,7 @@
     align-items: center;
     color: #5F6165;
     margin-bottom: 30px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .sidebar__img {
@@ -64,7 +64,7 @@
 .sidebar__link > a {
     text-decoration: none;
     color: #5F6165;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .sidebar__link a:focus {
