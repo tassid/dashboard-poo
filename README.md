@@ -19,3 +19,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Homepage
 - [ ] Integração com o Banco de Dados
 
+## Stacks Utilizadas
+- Javascript + React
+- CSS
+- SQL
