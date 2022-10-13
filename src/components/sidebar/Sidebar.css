@@ -92,6 +92,11 @@
     padding: 7px;
 }
 
+.sidebar__logout > i {
+    margin-right: 7px;
+    font-size: 18px;
+}
+
 .sidebar__responsive {
     display: inline !important;
     z-index: 9999 !important;
