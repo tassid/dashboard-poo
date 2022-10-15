@@ -6,11 +6,12 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <div className={sidebarOpen ? 'sidebar-responsive' : ''} id='sidebar'>
             <div className='sidebar__title'>
                 <div className='sidebar__img'>
-                    <img src={logo} alt='logo'></img>
+                    <img src={logo} alt='logo' />
                     <h1>Dashboard</h1>
                 </div>
 
-                <i onClick={ () => closeSidebar() }
+                <i 
+                    onClick={() => closeSidebar()}
                     className='fa fa-times'
                     id='sidebarIcon'
                     aria-hidden='true'
