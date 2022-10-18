@@ -19,6 +19,7 @@
 .sidebar__img {
     display: flex;
     align-items: center;
+    align-content: center;
 }
 
 .sidebar__title > div > img {
@@ -103,3 +104,4 @@
     left: 0 !important;
     position: absolute;
 }
+

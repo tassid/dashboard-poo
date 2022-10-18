@@ -7,7 +7,6 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
             <div className='sidebar__title'>
                 <div className='sidebar__img'>
                     <img src={logo} alt='logo' />
-                    <h1>Dashboard</h1>
                 </div>
 
                 <i 
@@ -35,7 +34,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <a href='#'>Relatórios</a>
                 </div>
                 <div className='sidebar__link'>
-                    <i className='fa fa-industry'></i>
+                    <i className='fa-solid fa-industry'></i>
                     <a href='#'>Esteiras</a>
                 </div>
                 <div className='sidebar__link'>
