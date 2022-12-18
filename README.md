@@ -8,6 +8,7 @@ Dashboard como projeto final da disciplina de Programação Orientada a Objetos
 - Gráficos 
 - Contagem em tempo real
 
+
 ## Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
