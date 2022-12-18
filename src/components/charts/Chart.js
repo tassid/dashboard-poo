@@ -1,5 +1,6 @@
 import '../../../node_modules/react-vis/dist/style.css'
-import { XYPlot, lineSeries, XAxis, YAxis, VerticalGridLines, HorizontalGridLines } from 'react-vis/dist'
+import { XYPlot, LineSeries, XAxis, YAxis, VerticalGridLines, HorizontalGridLines } from 'react-vis/dist'
+import chartLabel from 'react-vis/dist/plot/chart-label'
 
 const Chart = () =>{
     const data = [
@@ -9,7 +10,7 @@ const Chart = () =>{
         {x:0,y:8},
         {x:0,y:8}
     ]
-}
+
 
 return(
     <div className={{marginTop:'15px'}}>
@@ -18,8 +19,12 @@ return(
             <HorizontalGridLines />
             <XAxis />
             <YAxis />
-            <lineSeries />
-
+            <LineSeries data={data} color="red" />
+            <LineSeries data={data} color="purple"/>
+            <LineSeries data={data} color="yellow"/>
         </XYPlot>
     </div>
 )
+}
+
+export default Chart;

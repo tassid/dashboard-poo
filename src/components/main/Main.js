@@ -1,5 +1,5 @@
 //import hello from '../../assets/hello.svg'
-//import Chart from '../charts/Chart'
+import Chart from '../charts/Chart'
 
 const Main = () => {
     return (
