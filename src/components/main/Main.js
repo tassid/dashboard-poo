@@ -22,15 +22,6 @@ const Main = () => {
                         </div>
                     </div>
 
-
-                    <div className="card">
-                        <i className="fa fa-money fa-2x text-red"></i>
-                        <div className="card-inner">
-                            <p className="text-primary-p">Pagamentos</p>
-                            <span className="font-bold text-title">R$2.467</span>
-                        </div>
-                    </div>
-
                     <div className="card">
                         <i className="fa fa-money fa-2x text-red"></i>
                         <div className="card-inner">

@@ -10,16 +10,10 @@ const Navbar = ({ sidebarOpen, openSidebar}) => {
 
 
         <div className='navbar__left'>
-            <a href='#'>Produtos</a>
-            <a href='#'>Usuários</a>
             <a href='#' className='active_link'>Admin</a>
         </div>
 
         <div className='navbar__right'>
-
-            <a href='#'>
-                <i className='fa fa-search'></i>
-            </a>
 
             <a href='#'>
                 <i className='fa fa-search'></i>
